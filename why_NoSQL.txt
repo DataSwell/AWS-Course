@@ -1,0 +1,4 @@
+- Wide Columnstore easier to to write and read for a lot of transactions.
+two wide tables customer Purchase overview and Invoice details.
+with every transaction new columns will be generated for the customer purchase overview and the invoice details.
+Every invoice detail can have different values, for example the price for the same article in two different invoices.
