@@ -1,4 +1,6 @@
-# AWS
+# AWS Data Engineering course
+
+link to repository
 
 ## Use Case
 
@@ -9,23 +11,27 @@
 ## AWS dataplattform
 
 ### Streaming
-- API Gateway
+- API Gateway <br/>
 
-- Identity and Access Management (IAM)
+- Identity and Access Management (IAM) <br/>
 Roles
 Policies
 
-- S3 
+- S3 <br/>
 AWS Simple Storage Service (Amazon S3) is an key-value object storage service that offers scalability, data availability, security, and performance. 
 We use S3 for creating a buckets to store the raw streamed data. 
 
-- Kinesis
-- Kinesis Firehose
-- Redshift
-- CloudWatch
+- Kinesis <br/>
+- Kinesis Firehose <br/>
+- Redshift <br/>
+- CloudWatch <br/>
 
 ### Bulk import
-- IAM
-- S3
-- Glue (Crawler, Connections, Data Catalog, Jobs)
-- Redshift
+- IAM  <br/>
+
+- S3 <br/>
+
+- Glue <br/>
+(Crawler, Connections, Data Catalog, Jobs)
+
+- Redshift <br/>
