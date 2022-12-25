@@ -24,9 +24,15 @@ AWS Simple Storage Service (Amazon S3) is an key-value object storage service th
 We use S3 for creating a buckets to store the raw streamed data. 
 
 - **Kinesis** <br/>
+
 - **Kinesis Firehose** <br/>
+The Firehose Delivery Stream connects with the Kinesis Data Stream and writes the data into a S3 Bucket. 
+After that it copies the data from S3 into the referenced Redshift table.
+
 - **Redshift** <br/>
+
 - **CloudWatch** <br/>
+
 
 ### Bulk import
 - **IAM**  <br/>
