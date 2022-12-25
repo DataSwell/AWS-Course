@@ -46,6 +46,6 @@ Connections:
 <br/>
 Data Catalog:
 <br/>
-Jobs:
+Jobs: In the job the datatypes of the 
 
 - **Redshift** <br/>
