@@ -1,9 +1,9 @@
 # AWS Data Engineering course
 
-link to repository
+link to repository,
+link to kaggle dataset 
 
 ## Use Case
-
 
 1. **Streaming** <br/>
 2. **Bulk import** <br/>
@@ -12,6 +12,8 @@ link to repository
 
 ### Streaming
 - **API Gateway** <br/>
+To receive the streaming data we need to configure a REST API with GET and POST methods.
+Stage ... Contains the URL which is needed for the Python streaming script.
 
 - **Identity and Access Management** (IAM) <br/>
 Roles
@@ -33,8 +35,11 @@ We use S3 for creating a buckets to store the raw streamed data.
 
 - **Glue** <br/>
 Crawler: 
-Connections:
+<br/>
+Connections: 
+<br/>
 Data Catalog:
+<br/>
 Jobs:
 
 - **Redshift** <br/>
